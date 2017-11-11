@@ -1,0 +1,197 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: id"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User belum memiliki akun yang terdaftar dalam sistem",
+        "description": "",
+        "id": "sign-up;user-belum-memiliki-akun-yang-terdaftar-dalam-sistem",
+        "type": "scenario",
+        "keyword": "Skenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 188289134,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user dapat membuat akun baru",
+            "match": {
+              "location": "DemoContext.user_dapat_membuat_akun_baru()"
+            },
+            "keyword": "Dengan "
+          },
+          {
+            "result": {
+              "duration": 47696,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user menginputkan semua data akun",
+            "match": {
+              "location": "DemoContext.user_menginputkan_semua_data_akun()"
+            },
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "duration": 47092,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sistem mengecek data inputan user",
+            "match": {
+              "location": "DemoContext.sistem_mengecek_data_inputan_user()"
+            },
+            "keyword": "Dan "
+          },
+          {
+            "result": {
+              "duration": 42262,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "data inputan user benar",
+            "match": {
+              "location": "DemoContext.data_inputan_user_benar()"
+            },
+            "keyword": "Dan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "respon \"Akun baru berhasil di buat\"",
+            "match": {},
+            "keyword": "Maka "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Normal"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "User belum memiliki akun yang terdaftar dalam sistem",
+        "description": "",
+        "id": "sign-up;user-belum-memiliki-akun-yang-terdaftar-dalam-sistem",
+        "type": "scenario",
+        "keyword": "Skenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 283157,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user dapat membuat akun baru",
+            "match": {
+              "location": "DemoContext.user_dapat_membuat_akun_baru()"
+            },
+            "keyword": "Dengan "
+          },
+          {
+            "result": {
+              "duration": 38036,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user menginputkan semua data akun",
+            "match": {
+              "location": "DemoContext.user_menginputkan_semua_data_akun()"
+            },
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "duration": 39847,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "sistem mengecek data inputan user",
+            "match": {
+              "location": "DemoContext.sistem_mengecek_data_inputan_user()"
+            },
+            "keyword": "Dan "
+          },
+          {
+            "result": {
+              "duration": 36828,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "data inputan user benar",
+            "match": {
+              "location": "DemoContext.data_inputan_user_benar()"
+            },
+            "keyword": "Dan "
+          },
+          {
+            "result": {
+              "duration": 4636167,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "respon gagal dengan pesan \"Duplicate\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Duplicate",
+                  "offset": 27
+                }
+              ],
+              "location": "DemoContext.respon_gagal_dengan_pesan(String)"
+            },
+            "keyword": "Maka "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@Duplikat"
+          }
+        ]
+      }
+    ],
+    "name": "Sign Up",
+    "description": "      Sign Up",
+    "id": "sign-up",
+    "keyword": "Fitur",
+    "uri": "com/mycompany/tubes1/test/DemoTest.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: id"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User tidak dapat mengakses perangkat lunak",
+        "description": "\n  Given user dapat mengakses perangkat lunak\n\n    When user menginputkan NIM\n    Or user menginputkan NIP\n    And user menginputkan Password\n    And sistem mengecek data inputan user\n    And data inputan user benar \n    Then user berhasil masuk",
+        "id": "sign-in;user-tidak-dapat-mengakses-perangkat-lunak",
+        "type": "scenario",
+        "keyword": "Skenario"
+      }
+    ],
+    "name": "Sign In",
+    "description": "",
+    "id": "sign-in",
+    "keyword": "Fitur",
+    "uri": "com/mycompany/tubes1/test/SignIn.feature"
+  }
+]
