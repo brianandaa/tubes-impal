@@ -52,7 +52,6 @@ public void sistem_menyimpan_deadline() throws Throwable {
 @Maka("^sistem akan melakukan hitung mundur sesuai deadline")
 public void respon(String arg1) throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-    //String expected = "Akun baru berhasil di buat";
     String result = "sistem akan melakukan hitung mundur sesuai deadline";
     Assert.assertEquals(arg1, result);
 }

@@ -42,7 +42,6 @@ public void user_mengupload_file_materi_mata_kuliah() throws Throwable {
 @Maka("^sistem menyimpan file materi dalam database$")
 public void respon(String arg1) throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-    //String expected = "Akun baru berhasil di buat";
     String result = "sistem menyimpan file materi dalam database";
     Assert.assertEquals(arg1, result);
 }

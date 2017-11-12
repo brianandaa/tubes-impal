@@ -52,7 +52,6 @@ public void user_menginputkan_jawaban_soal_kuis_tugas() throws Throwable {
 @Maka("^sistem menyimpan file soal kuis tugas")
 public void respon(String arg1) throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-    //String expected = "Akun baru berhasil di buat";
     String result = "sistem menyimpan file soal kuis tugas";
     Assert.assertEquals(arg1, result);
 }
